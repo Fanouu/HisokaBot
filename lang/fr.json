@@ -1,0 +1,125 @@
+{
+    "error":{
+        "NoArgs": "│ Veillez spécifié un argument ou une message précis"
+    },
+    
+    "help": {
+        "title": "Page d'aide d'Hisoka",
+        "moderator": "👮‍♂️༻ Moderateur",
+        "configurator": "🛠️༻ Configuration",
+        "giveaway": "🎁༻ Giveaways",
+        "economy": "💸༻ Economy",
+        "funny": "🎉༻ Fun"
+    },
+
+    "ban": {
+        "noBannable": "<a:error:809091606908502077> **Vous ne pouvez pas bannir cette personne !**",
+        "banned": "<a:ban:908672513691766785> **Vous avez été banni du server `{server}` pour la raison suivante: `{reason}`**",
+        "succes": "<a:succes:809091639300587530> **`{usertag}` a été banni pour la raison suivante: __{reason}__**"
+    },
+
+    "economy": {
+        "mymoney": {
+            "title": "Money de {user}",
+            "desc": "**Porte-feuille** \n{money} {logomoney} \n \n**Banque** \n{bank} {logomoney}"
+        },
+        "work": {
+            "errortime": {
+                "title": "<a:error:809091606908502077> **Vous avez déjà travaillé récement, veillez attendre** `{hours}h, {minute}m, {second}s`"
+            },
+            "succes": {
+                "title": "<a:succes:809091639300587530> **Vous venez de travailé en tant que `{worker}` et avez gagné __{gain}__ {iconlogo}**"
+            }
+        }
+    },
+
+    "setlogs": {
+        "succes": "{emoji.succes} **Le salon des logs a bien été définis sur {channel}**"
+    },
+
+    "setsuggest": {
+        "succes": "{emoji.succes} **Le salon des suggestion a bien été définis sur {channel}**"
+    },
+
+    "suggest": {
+        "title": "⭐ Suggestion de {user}"
+    },
+
+
+    "pileorface": {
+        "answer": "**Que veut tu jouer ? `pile` ou `face` ?** \n*:one: Pile \n:two: Face*"
+    },
+
+    "nuke": {
+        "succes": "{emoji.succes} **La salon a bien été re-créer !**"
+    },
+
+    "Error": {
+        "NoUsage": "{emoji.error} **Mauvaise utilisation de la command**, `{usage}`"
+    },
+
+    "setwelcome": {
+        "noargsembed":{
+            "title": "Bienvenue dans le configurateur de message de bienvenue",
+            "desc": "`{prefix}setwelcome currentsetting`\n**Permet de voir les paramètre actuelle**\n`{prefix}setwelcome setting`\n**Modifiez les paramètre de message de bienvue**\n`{prefix}setwelcome on/off`\n**Actice ou désactive les message de bienvenue**"
+        },
+
+        "currentsetting":{
+            "title": "Paramètre actuelle pour {server}",
+            "desc": "`Message Channel:` {current_channel}\n`Message:` {current_message}\n`Image:` {current_image}\n `Enable:` {current_enable} \n \n*Si les messages de bienvenue ne s'envois pas re-configurer de nouveau le système de bienvenue*"
+        },
+
+        "setting":{
+            "embed1": {
+                "title": "Configurateur des messages de bienvenue (étape 1/3)",
+                "desc": "**Veillez envoyé le salon dans lequel les messages de bienvenue seront envoyé !**\n```\nExemple: #welcome-users\n```\n \n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            },
+            "embed2": {
+                "title": "Configurateur des messages de bienvenue (étape 2/3)",
+                "desc": "**Veillez envoyé le message de bienvenue qui sera envoyé lors de l'arrivé d'un utilisateur !**\n```\nExemple: Hi {user} :wave:, bienvenue sur {server_name}\n```\n \n`{user}`** Renvoie la mentions de l'utilisateur**\n`{user_name}` **Renvoie le nom d'utilisateur**\n`{server_name}` **Renvoie le nom du server**\n`{server_membercount}` **Renvoie le nombre d'utilisateur** \n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            },
+            "embed3": {
+                "title": "Configurateur des messages de bienvenue (étape 3/3)",
+                "desc": "**Voulez-vous activé les message de bienvenue en image ?** Répondez par `yes` ou `no`\n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            }
+        },
+
+        "succes": {
+            "on": "<a:succes:809091639300587530> **Tu a bien activé les messages de bienvenue !**",
+            "off": "<a:succes:809091639300587530> **Tu a bien desactivé les messages de bienvenue !**",
+            "modified": "<a:succes:809091639300587530> **Tu a bien modifié les paramètre des messages de bienvenue"
+        }
+    },
+    "setgoodbye": {
+        "noargsembed":{
+            "title": "Bienvenue dans le configurateur de message d'au-revoir",
+            "desc": "`{prefix}setgoodbye currentsetting`\n**Permet de voir les paramètre actuelle**\n`{prefix}setgoodbye setting`\n**Modifiez les paramètre de message d'au-revoir**\n`{prefix}setgoodbye on/off`\n**Active ou désactive les message d'au-revoir**"
+        },
+
+        "currentsetting":{
+            "title": "Paramètre actuelle pour {server}",
+            "desc": "`Message Channel:` {current_channel}\n`Message:` {current_message}\n`Image:` {current_image}\n `Enable:` {current_enable} \n \n*Si les messages d'au-revoir ne s'envois pas re-configurer de nouveau le système d'au-revoir*"
+        },
+
+        "setting":{
+            "embed1": {
+                "title": "Configurateur des messages d'au-revoir (étape 1/3)",
+                "desc": "**Veillez envoyé le salon dans lequel les messages d'au-revoir seront envoyé !**\n```\nExemple: #goodbye-users\n```\n \n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            },
+            "embed2": {
+                "title": "Configurateur des messages d'au-revoir (étape 2/3)",
+                "desc": "**Veillez envoyé le message d'au-revoir qui sera envoyé lors de l'arrivé d'un utilisateur !**\n```\nExemple: Goodbye {user} :wave:, ce fût un plaisir de t'accueillir sur {server_name}\n```\n \n`{user}`** Renvoie la mentions de l'utilisateur**\n`{user_name}` **Renvoie le nom d'utilisateur**\n`{server_name}` **Renvoie le nom du server**\n`{server_membercount}` **Renvoie le nombre d'utilisateur** \n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            },
+            "embed3": {
+                "title": "Configurateur des messages d'au-revoir (étape 3/3)",
+                "desc": "**Voulez-vous activé les message d'au-revoir en image ?** Répondez par `yes` ou `no`\n*Ecrivé sous ce message &  `cancel` pour arréter le procéssus*"
+            }
+        },
+
+        "succes": {
+            "on": "<a:succes:809091639300587530> **Tu a bien activé les messages d'au-revoir !**",
+            "off": "<a:succes:809091639300587530> **Tu a bien desactivé les messages d'au-revoir !**",
+            "modified": "<a:succes:809091639300587530> **Tu a bien modifié les paramètre des messages d'au-revoir"
+        }
+    }
+}

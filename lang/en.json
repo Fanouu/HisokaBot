@@ -1,0 +1,121 @@
+{
+    "error":{
+        "NoArgs": "│ Veillez spécifié un argument ou une message précis"
+    },
+    
+    "help": {
+        "title": "Hisoka's Help",
+        "moderator": "👮‍♂️༻ Moderator",
+        "configurator": "🛠️༻ Configuration",
+        "giveaway": "🎁༻ Giveaways",
+        "economy": "💸༻ Economy",
+        "funny": "🎉༻ Fun"
+    },
+
+    "ban": {
+        "noBannable": "<a:error:809091606908502077> **You can’t banish that person !**",
+        "banned": "<a:ban:908672513691766785> **You have been banned from the `{server}' server for the following reason: `{reason}`**",
+        "succes": "<a:succes:809091639300587530> **`{usertag}` was banned for the following reason __{reason}__**"
+    },
+
+    "economy": {
+        "mymoney": {
+            "title": "{user} Money",
+            "desc": "**Wallet** \n{money} {logomoney} \n \n**Bank** \n{bank} {logomoney}"
+        },
+        "work": {
+            "errortime": {
+                "title": "<a:error:809091606908502077> **You have already worked recently, be sure to wait** `{hours}h, {minute}m, {second}s`"
+            },
+            "succes": {
+                "title": "<a:succes:809091639300587530> **You just worked as a `{worker}` and won __{gain}__ {iconlogo}**"
+            }
+        }
+    },
+
+    "setlogs": {
+        "succes": "{emoji.succes} **the log channel has been defined on {channel}**"
+    },
+
+    "setsuggest": {
+        "succes": "{emoji.succes} **the suggest channel has been defined on {channel}**"
+    },
+
+    "suggest": {
+        "title": "⭐ {user} Suggest"
+    },
+
+    "pileorface": {
+        "answer": "**What do you want to play ? `pile` or `face` ?`** \n*:one: Pile \n:two: Face*"
+    },
+
+    "nuke": {
+        "succes": "{emoji.succes} **This channel has succesfully re-create**"
+    },
+
+    "setwelcome": {
+        "noargsembed":{
+            "title": "Hi to the welcome message configurator",
+            "desc": "`{prefix}setwelcome currentsetting`\n**Allows you to see the current settings**\n`{prefix}setwelcome setting`\n**Change the welcome message settings**\n`{prefix}setwelcome on/off`\n**Enable or disable the welcome message**"
+        },
+
+        "currentsetting":{
+            "title": "Current Settings for {server}",
+            "desc": "`Message Channel:` {current_channel}\n`Message:` {current_message}\n`Image:` {current_image}\n `Enable:` {current_enable} \n \n*If the welcome messages do not send, re-configure the welcome system*"
+        },
+
+        "setting":{
+            "embed1": {
+                "title": "Welcome message configurator (step 1/3)",
+                "desc": "**Please send channel in which the welcome messages will be sent !**\n```\nExample: #welcome-users\n```\n \n*Write under this message & `cancel` for exit process*"
+            },
+            "embed2": {
+                "title": "Welcome message configurator (step 2/3)",
+                "desc": "**Please send the welcome message that will be sent when a user arrives !**\n```\nExample: Hi {user} :wave:, welcome to {server_name}\n```\n \n`{user}`** Returns user mentions**\n`{user_name}` **Returns user username**\n`{server_name}` **Returns the name of server**\n`{server_membercount}` **Returns the number of users on the server** \n*Write under this message & `cancel` for exit process*"
+            },
+            "embed3": {
+                "title": "Welcome message configurator (step 3/3)",
+                "desc": "**Do you want to enable the welcome message in image? ?** Reply with `yes` or `no`\n*Write under this message & `cancel` for exit process*"
+            }
+        },
+
+        "succes": {
+            "on": "<a:succes:809091639300587530> **You have succesfully activated the welcome messages !**",
+            "off": "<a:succes:809091639300587530> **You have succesfully deactivated the welcome messages !**",
+            "modified": "<a:succes:809091639300587530> **You have succesfully changed the parameters of the welcome messages"
+        }
+    },
+    "setgoodbye": {
+        "noargsembed":{
+            "title": "Hi to the goodbye message configurator",
+            "desc": "`{prefix}setgoodbye currentsetting`\n**Allows you to see the current settings**\n`{prefix}setgoodbye setting`\n**Change the goodbye message settings**\n`{prefix}setgoodbye on/off`\n**Enable or disable the goodbye message**"
+        },
+
+        "currentsetting":{
+            "title": "Current Settings for {server}",
+            "desc": "`Message Channel:` {current_channel}\n`Message:` {current_message}\n`Image:` {current_image}\n `Enable:` {current_enable} \n \n*If the goodbye messages do not send, re-configure the goodbye system*"
+        },
+
+        "setting":{
+            "embed1": {
+                "title": "Goodbye message configurator (step 1/3)",
+                "desc": "**Please send channel in which the goodbye messages will be sent !**\n```\nExample: #goodbye-users\n```\n \n*Write under this message & `cancel` for exit process*"
+            },
+            "embed2": {
+                "title": "Goodbye message configurator (step 2/3)",
+                "desc": "**Please send the goodbye message that will be sent when a user arrives !**\n```\nExample: Goodbye {user} :wave:, to {server_name}\n```\n \n`{user}`** Returns user mentions**\n`{user_name}` **Returns user username**\n`{server_name}` **Returns the name of server**\n`{server_membercount}` **Returns the number of users on the server** \n*Write under this message & `cancel` for exit process*"
+            },
+            "embed3": {
+                "title": "Goodbye message configurator (step 3/3)",
+                "desc": "**Do you want to enable the goodbye message in image? ?** Reply with `yes` or `no`\n*Write under this message & `cancel` for exit process*"
+            }
+        },
+
+        "succes": {
+            "on": "<a:succes:809091639300587530> **You have succesfully activated the goodbye messaged !**",
+            "off": "<a:succes:809091639300587530> **You have succesfully deactivated the goodbye messages !**",
+            "modified": "<a:succes:809091639300587530> **You have succesfully changed the parameters of the goodbye messages"
+        }
+    }
+    
+}
