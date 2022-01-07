@@ -1,0 +1,34 @@
+{
+    "bot": {
+        "DefaultPrefix": ".",
+        "token": "OTA1OTIyMzY1MDc3MjI1NTIz.YYRH8w.sz2r-_hjKf14NTqHs34txIIkYYE",
+        "DefaultLangage": "fr",
+        "footer": "Hisoka | 2020 - 2021",
+        "version": "0.0.1",
+        "mongo_connect": "mongodb+srv://hisoka_data:FANthebg04@cluster0.6yc1n.mongodb.net/Cluster0?retryWrites=true&w=majority"
+    },
+    "staff": {
+        "owners": {
+           "id": ["853586002576408587", "709481084286533773", "591341484721307654"]
+        },
+        "moderators": {
+            "id": ["853586002576408587", "709481084286533773", "591341484721307654"]
+        }
+    },
+    "emojis": {
+        "animated": {
+            "error": "<a:error:809091606908502077>",
+            "succes": "<a:succes:809091639300587530>"
+        },
+        "simple": {
+            "error": "❌",
+            "succes": "✔️",
+            "command": "<:command:905930839802667078>"
+        }
+    },
+    "color": {
+        "purple": "soon"
+    },
+    "everyoneMention": true,
+    "hostedBy": true
+}
