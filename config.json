@@ -1,11 +1,11 @@
 {
     "bot": {
         "DefaultPrefix": ".",
-        "token": "OTA1OTIyMzY1MDc3MjI1NTIz.YYRH8w.sz2r-_hjKf14NTqHs34txIIkYYE",
+        "token": "your_token",
         "DefaultLangage": "fr",
         "footer": "Hisoka | 2020 - 2021",
         "version": "0.0.1",
-        "mongo_connect": "mongodb+srv://hisoka_data:FANthebg04@cluster0.6yc1n.mongodb.net/Cluster0?retryWrites=true&w=majority"
+        "mongo_connect": "..."
     },
     "staff": {
         "owners": {
